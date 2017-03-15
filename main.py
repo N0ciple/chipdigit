@@ -1,3 +1,4 @@
+#!/usr/bin/python
 
 from Tkinter import *
 
@@ -195,7 +196,7 @@ def train_classif():
             data_target[i-1,0] = int(line.split('.')[0][-1:])
 
     #clf = svm.SVC(gamma=0.001)
-    clf = RandomForestClassifier(n_estimators=50)
+    clf = RandomForestClassifier(n_estimators=10)
     clf.fit(data_train, data_target.ravel())
 
     return clf
@@ -244,3 +245,4 @@ if __name__ == '__main__':
                 ge.reset_canevas()
 
 #####END OF FILE
+
