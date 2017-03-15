@@ -1,7 +1,7 @@
 # ChipDigits
 ChipDigits is a simple python script which performs handwritting recognition. There are two modes : 
-..* Recognition Mode
-..* Training Mode
+* Recognition Mode
+* Training Mode
 
 ## Modes
 ### Recognition Mode
