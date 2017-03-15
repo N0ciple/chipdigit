@@ -21,6 +21,29 @@ Here is a picture of the training mode :
 
 ## Instructions
 
+### How to install ChipDigit on PocketChip
+To install ChipDigit you simply need to install a few dependencies :
+
+```bash
+sudo apt-get install python-tk git python-numpy
+pip install --user scikit-learn
+```
+
+*Please be aware that installing scikit-learn on your PocketChip might take a **long** time.*
+
+Then you need to download the necessary files (by typing the following, files will be downloaded in your home directory).
+
+```bash
+cd ~
+git clone https://github.com/N0ciple/chipdigit.git
+```
+
+To lauch ChipDigit simply type :
+```
+python ~/chipdigit/main.py
+```
+
+
 ### How to train ChipDigit with your writting
 By default, ChipDigit already comes with a few images in order to be able to recognize writting. However you might want to train ChipDigit on your own writting. To do so, in the bash console type :
 ```bash
