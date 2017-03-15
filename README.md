@@ -8,7 +8,7 @@ ChipDigits is a simple python script which performs handwritting recognition. Th
 ### Recognition Mode
 In recognition mode you can simply draw a digit between 0 and 9 and the label at the top of the drawing zone will change print which number have been recognized. This is visible on the illustrqtion picture.
 Here is a picture of the recognition mode :
-![alt text](http://www.noelshack.com/2017-11-1489593058-img2.png "Recognition Mode Picture")
+![alt text](http://image.noelshack.com/fichiers/2017/11/1489593058-img2.png "Recognition Mode Picture")
 
 ### Training Mode
 Since everybody writes in a different manner, you might want to train ChipDigit to your own writting style. To do so, you can access the Training Mode. In training mode, a small text box on the left of the screen is asking you to write a precise digit. Write it, and it's automatically stored. To prevent you from being bored and wrtiting the number exactly the same way, the number you have to write are chosen randomly.
